@@ -1,0 +1,50 @@
+body , html {
+  padding: 0;
+  margin: 20px;
+  background: #333;
+  color: #e53f3f3f;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 265px;
+  display: inline-block;
+  border: none;
+  border-radius: 20px 0px 0px 20px;
+  padding: 5px;
+  padding-left: 10px;
+  outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#add {
+  width: 50px;
+  position: relative;
+  display: inline-block;
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+  padding: 4px;
+  margin-left: -5px;
+  top: -1.5px;
+  background: #e53f3f3f;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+button {
+  width: 160px;
+  padding: 5px;
+  background: #e53f3f3f;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+h2 {
+  font-size: 16px;
+}
